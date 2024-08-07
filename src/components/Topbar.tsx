@@ -25,10 +25,10 @@ const Topbar: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-teal-600 text-white flex items-center justify-between px-4 py-2 text-sm relative overflow-hidden h-10">
+    <div className="bg-yellow-400 text-pink-700 flex items-center justify-between px-4 py-2 text-sm relative overflow-hidden h-10">
       <button
         onClick={prevMessage}
-        className="absolute left-0 px-4 h-full flex items-center justify-center text-white bg-teal-600 hover:bg-teal-800 transition duration-300 text-3xl"
+        className="absolute left-0 px-4 h-full flex items-center justify-center text-pink-700 bg-yellow-400 hover:text-pink-500 transition duration-300 text-3xl"
       >
         &#8249;
       </button>
@@ -37,7 +37,7 @@ const Topbar: React.FC = () => {
       </div>
       <button
         onClick={nextMessage}
-        className="absolute right-0 px-4 h-full flex items-center justify-center text-white bg-teal-600 hover:bg-teal-800 transition duration-300 text-3xl"
+        className="absolute right-0 px-4 h-full flex items-center justify-center text-pink-700 bg-yellow-400 hover:text-pink-500 transition duration-300 text-3xl"
       >
         &#8250;
       </button>

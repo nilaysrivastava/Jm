@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-// import AboutUs from "./components/AboutUs";
+import AboutUs from "./components/AboutUs";
 import Products from "./components/Products";
 import Footer from "./components/Footer";
 import Landing from "./components/Landing";
@@ -11,8 +11,8 @@ const App: React.FC = () => {
     <div>
       <Topbar />
       <Header />
-      {/* <AboutUs /> */}
       <Landing />
+      <AboutUs />
       <Products />
       <Footer />
     </div>
